@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>xtian's Mina WebPage | Home</title>
+  <link rel="stylesheet" href="src/css/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>
+    //js href of logo
+    $("logo").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    //js href of links
+    $("nav_link").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    //js href button 
+    $("button").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    </script>
+</head>
+<body>
+  
+  <!-- Start of HEADER -->
+  <header class="header">
+    <div class="logo-section">
+      <img class="logo" onclick="location.href='#'" src="src/img/logo/MINA.png" alt="">
+    </div>
+    <div class="right-section">
+      <div class="nav_link" onclick="location.href='shop.html'">
+        Shop
+      </div>
+      <div class="nav_link" onclick="location.href='about.html'">
+        About 
+        <svg class="item-content__icon" width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-cfaf17ac=""><path d="M5 6.5L0.669873 0.5L9.33013 0.500001L5 6.5Z" fill="currentColor" data-v-cfaf17ac=""></path></svg>
+      </div>
+      <div class="nav_link" onclick="location.href='contact.html'">
+        Contact
+      </div>
+      <div class="nav_link" onclick="location.href='shop.html'">
+        <svg width="19" height="20" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-header-cart__icon" data-v-2e952452=""><path fill-rule="evenodd" clip-rule="evenodd" d="M5.94636 5.35922C6.29451 3.00506 7.9363 1.39824 9.67973
+          1.39824C11.4232 1.39824 13.0649 3.00506
+          13.4131 5.35922H5.94636ZM4.53847 5.35922C4.90317 2.43147
+          6.95866 0.000183105 9.67973 0.000183105C12.4008
+          0.000183105 14.4563 2.43147 14.821 5.35922H17.2816H18.6797V6.75728V21.2039C18.6797
+          22.7481 17.4278 24 15.8836
+          24H3.4758C1.93155 24 0.679688 22.7481 0.679688
+          21.2039V6.75728V5.35922H2.07775H4.53847ZM2.07775 6.75728H4.52596V9.08752C4.52596
+          9.47359 4.83893 9.78655 5.22499 9.78655C5.61105 9.78655 5.92402 9.47359
+          5.92402 9.08752V6.75728H13.5259V9.08752C13.5259 9.47359
+          13.8389 9.78655 14.2249 9.78655C14.611 9.78655 14.9239
+          9.47359 14.9239 9.08752V6.75728H17.2816V21.2039C17.2816 21.976 16.6557 22.6019
+          15.8836 22.6019H3.4758C2.70368 22.6019 2.07775 21.976 2.07775 21.2039V6.75728Z" fill="currentColor" data-v-2e952452=""></path></svg> Cart (0)
+      </div>
+    </div>
+  </header>
+    <!-- End of HEADER -->
+
+    <!-- start of MAIN CONTENT -->
+
+    <!-- HEADLINE 1-->
+    <div class="headline" style="background-image: url('src/img/background/bg_1.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Handmade ceramics</h1>
+        <p class="p_headline">Painted clay ceramics made with love.</p>
+        <div class="button_headline"><button class="button_headline_design" onclick="location.href='#shop'">Show now</button></div>
+      </div>
+    </div>
+    
+    <!-- BESTSELLER -->
+    <div class="bestseller_title">
+      <h1>Our bestsellers</h1>
+    </div>
+
+    <!-- GRID ITEMS -->
+    <section class="home-grid">
+      
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/candy.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Candy' Flowerpot
+            </p>
+            <p class="image-price">
+              $59.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/drop.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Drop' Vase
+            </p>
+            <p class="image-price">
+              $49.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/wave.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Wave' Vase
+            </p>
+            <p class="image-price">
+              $69.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/sun.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Sun' Vase
+            </p>
+            <p class="image-price">
+              $49.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end of GRID ITEMS -->
+    
+    <div class="bestseller_button">
+      <button class="button_bestseller_design">
+        Buy now
+      </button>
+    </div>
+    <!-- end of HEADLINE 1 -->
+	
+    <!-- HEADLINE 2-->
+    <div class="headline" style="background-image: url('src/img/background/bg_2.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Home decor items</h1>
+        <p class="p_headline">Find your new favorite pieces.</p>
+        <div class="button_headline"><button onclick="location.href='#shop'" class="button_headline_design">Show now</button></div>
+      </div>
+    </div>
+
+    <section class="headline_2-grid">
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/about-mina.png">
+        </div>
+        <div class="headline_2-info-grid">
+          <div class="headline_2-info">
+            <p class="headline_2-title">
+              About Mina
+            </p>
+            <p class="headline_2-price">
+              Mina is a brand born out of a passion for ceramics.
+            </p>
+            <div class="learn_button">
+              <button class="learn_button_design">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/sustainability.png">
+        </div>
+        <div class="headline_2-info-grid">
+          <div class="headline_2-info">
+            <p class="headline_2-title">
+              Sustainability
+            </p>
+            <p class="headline_2-price">
+              Mina is an eco-friendly brand that cares about sustainability.
+            </p>
+            <div class="learn_button">
+              <button class="learn_button_design">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<!-- end of HEADLINE 2 -->
+
+    <!-- HEADLINE 3 -->
+    <div class="headline" style="background-image: url('src/img/background/bg_3.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Sign-up for our newsletter</h1>
+        <input class="input_headline" type="email" name="email" placeholder="Enter your email">
+        <div class="button_headline"><button class="button_headline_design">Submit</button></div>
+      </div>
+    </div>
+	
+	<!-- Follow us on IG -->
+	
+	<div class="bestseller_title">
+      <h1>Follow us on instagram</h1>
+    </div>
+	
+	<section class="ig-grid">
+      
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/ig-1.png">
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/ig-2.png">
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/ig-3.png">
+        </div>
+      </div>
+
+    </section>
+	
+	<div class="ig-username">
+    <p>@mina_studio</p>
+  </div>
+	<!-- end of Follow us on IG with grid -->
+    <!-- End of CONTENT -->
+	
+	<!--footer-->
+    <footer>
+        <div class="nav__links">
+            <a href="#"><img src="src/img/logo/MINA.png" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="shop.html">Payments & Delivery
+                        </a></li>
+                    <li><a href="about.html">Returns</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="nav__links_2">
+             <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                            </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- end of footer-->
+
+</body>
+</html>

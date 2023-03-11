@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'mina_font';
+    src: url('../../assets/fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+* {
+    font-family: 'mina_font', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+li, a, button {
+    font-family:'mina_font', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+}
+.active__page{
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-underline-offset: 0.4rem;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(252, 252, 252);
+    border: none;
+}
+h1 {
+    font-family: 'mina_font', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+#container {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+#container .column__1 {
+    background-image: url(https://raw.githubusercontent.com/kingben044/mina-webpage/main/bg_1.png);"
+    width: 100%;
+}
+.column__2 {
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+.column__2 img {
+    width: 100%;
+}
+.col {
+    text-align: center;
+}

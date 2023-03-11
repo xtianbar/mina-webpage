@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>xtian's Mina WebPage | Home</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script>
+    //js href of logo
+    $("logo").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    //js href of links
+    $("nav_link").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    //js href button 
+    $("button").click(function(){
+      window.location=$(this).find("a").attr("href"); return false;
+    });
+    </script>
+</head>
+<body>
+  
+  <!-- Start of HEADER -->
+  <header class="header">
+    <div class="logo-section">
+      <img class="logo" onclick="location.href='#'" src="src/img/logo/MINA.png" alt="">
+    </div>
+    <div class="right-section">
+      <div class="nav_link" onclick="location.href='#shop'">
+        Shop
+      </div>
+      <div class="nav_link" onclick="location.href='#about'">
+        About 
+        <svg class="item-content__icon" width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-cfaf17ac=""><path d="M5 6.5L0.669873 0.5L9.33013 0.500001L5 6.5Z" fill="currentColor" data-v-cfaf17ac=""></path></svg>
+      </div>
+      <div class="nav_link" onclick="location.href='#contact'">
+        Contact
+      </div>
+      <div class="nav_link" onclick="location.href='#shop'">
+        <svg width="19" height="20" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-header-cart__icon" data-v-2e952452=""><path fill-rule="evenodd" clip-rule="evenodd" d="M5.94636 5.35922C6.29451 3.00506 7.9363 1.39824 9.67973
+          1.39824C11.4232 1.39824 13.0649 3.00506
+          13.4131 5.35922H5.94636ZM4.53847 5.35922C4.90317 2.43147
+          6.95866 0.000183105 9.67973 0.000183105C12.4008
+          0.000183105 14.4563 2.43147 14.821 5.35922H17.2816H18.6797V6.75728V21.2039C18.6797
+          22.7481 17.4278 24 15.8836
+          24H3.4758C1.93155 24 0.679688 22.7481 0.679688
+          21.2039V6.75728V5.35922H2.07775H4.53847ZM2.07775 6.75728H4.52596V9.08752C4.52596
+          9.47359 4.83893 9.78655 5.22499 9.78655C5.61105 9.78655 5.92402 9.47359
+          5.92402 9.08752V6.75728H13.5259V9.08752C13.5259 9.47359
+          13.8389 9.78655 14.2249 9.78655C14.611 9.78655 14.9239
+          9.47359 14.9239 9.08752V6.75728H17.2816V21.2039C17.2816 21.976 16.6557 22.6019
+          15.8836 22.6019H3.4758C2.70368 22.6019 2.07775 21.976 2.07775 21.2039V6.75728Z" fill="currentColor" data-v-2e952452=""></path></svg> Cart (0)
+      </div>
+    </div>
+  </header>
+    <!-- End of HEADER -->
+
+    <!-- start of MAIN CONTENT -->
+
+    <!-- HEADLINE 1-->
+    <div class="headline" style="background-image: url('src/img/background/bg_1.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Handmade ceramics</h1>
+        <p class="p_headline">Painted clay ceramics made with love.</p>
+        <div class="button_headline"><button class="button_headline_design" onclick="location.href='#shop'">Show now</button></div>
+      </div>
+    </div>
+    
+    <!-- BESTSELLER -->
+    <div class="bestseller_title">
+      <h1>Our bestsellers</h1>
+    </div>
+
+    <!-- GRID ITEMS -->
+    <section class="home-grid">
+      
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/candy.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Candy' Flowerpot
+            </p>
+            <p class="image-price">
+              $59.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/drop.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Drop' Vase
+            </p>
+            <p class="image-price">
+              $49.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/wave.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Wave' Vase
+            </p>
+            <p class="image-price">
+              $69.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="src/img/items/sun.png">
+        </div>
+        <div class="image-info-grid">
+          <div class="image-info">
+            <p class="image-title">
+              'Sun' Vase
+            </p>
+            <p class="image-price">
+              $49.99
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end of GRID ITEMS -->
+    
+    <div class="bestseller_button">
+      <button class="button_bestseller_design">
+        Buy now
+      </button>
+    </div>
+    
+    <!-- HEADLINE 2-->
+    <div class="headline" style="background-image: url('src/img/background/bg_2.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Home decor items</h1>
+        <p class="p_headline">Find your new favorite pieces.</p>
+        <div class="button_headline"><button onclick="location.href='#shop'" class="button_headline_design">Show now</button></div>
+      </div>
+    </div>
+
+    <div class="headline_2_content">
+      <div class="headline_2_img-container">
+        <img src="src/img/items/about-mina.png" alt="" class="headline_2-img">
+        <img src="src/img/items/sustainability.png" alt="" class="headline_2-img">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- HEADLINE 3 -->
+    <div class="headline" style="background-image: url('src/img/background/bg_3.png');">
+      <div class="headline_content">
+        <h1 class="h1_headline">Sign-up for our newsletter</h1>
+        <input class="input_headline" type="email" name="email" placeholder="Enter your email">
+        <div class="button_headline"><button class="button_headline_design">Submit</button></div>
+      </div>
+    </div>
+
+    <!-- End of CONTENT -->
+</body>
+</html>
